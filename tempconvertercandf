@@ -13,11 +13,15 @@ void main()
         c=((b*1.8)+32);
         printf("The temperature in Fahrenheit is %f", c);
     }
-    if (a==2){
+    else if (a==2){
         printf("Enter the temperature in Fahrenheit: ");
         scanf("%f",&d);
         e=((d-32)/1.8);
         printf("The temperature in Celsius is %f",e);
     }
+    else {
+        printf("Enter a valid choice");
+    }
     getch();
 }
+
