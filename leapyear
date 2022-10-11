@@ -15,4 +15,5 @@
         {
             printf("%d is not a leap year",a);
         }
+        getch();
     }
