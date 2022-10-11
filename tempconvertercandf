@@ -1,0 +1,23 @@
+//Created by Ruban on 11.10.2022
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int a;
+    float b,c,d,e;
+    printf("1) Celsius to Fahrenheit \n2) Fahrenheit to Celsius \nType the corresponding choice '1' or '2': ");
+    scanf("%d",&a);
+    if (a==1) {
+        printf("Enter the temperature in Celsius:");
+        scanf("%f",&b);
+        c=((b*1.8)+32);
+        printf("The temperature in Fahrenheit is %f", c);
+    }
+    if (a==2){
+        printf("Enter the temperature in Fahrenheit: ");
+        scanf("%f",&d);
+        e=((d-32)/1.8);
+        printf("The temperature in Celsius is %f",e);
+    }
+    getch();
+}
