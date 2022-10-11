@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    float e,t,m,s,ss,avg,tot,pct;
+    printf("\nEnter your mark in English : ");
+    scanf("%f",&e);
+    printf("\nEnter your mark in Tamil : ");
+    scanf("%f",&t);
+    printf("\nEnter your mark in Mathematics : ");
+    scanf("%f",&m);
+    printf("\nEnter your mark in Science : ");
+    scanf("%f",&s);
+    printf("\nEnter your mark in Social Science : ");
+    scanf("%f",&ss);
+    tot=(e+t+m+s+ss);
+    if(tot>500){
+        printf("Invalid Marks");}
+    else {
+        avg = (tot / 5);
+        pct = ((tot / 500) * 100);
+        printf("\nYour Total marks: %f", tot);
+        printf("\nYour Average Marks: %f", avg);
+        printf("\nYour Percentage is %f ", pct);
+    }
+    getch();
+
+}
