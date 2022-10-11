@@ -10,6 +10,6 @@ int main()
         printf("You are eligible for voting as your age is %d",age);
     else
         printf("You are not eligible for voting since you are %d",age);
-
+    getch();
 }
 
