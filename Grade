@@ -11,7 +11,7 @@ void main() {
     } else if (a >= 80) {
         printf("The grade is 'A'");
     } else if (a >= 70) {
-        printf("The grade is 'B;");
+        printf("The grade is 'B'");
     } else if (a >= 60) {
         printf("The grade is 'C'");
     } else if (a >= 50) {
