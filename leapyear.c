@@ -1,6 +1,6 @@
-//
+// Created with CLion  
 // Created by Ruban on 10/10/2022.
-//
+// Edited on 12/10/2022. if(a%100==0 && a%400!=0) printf("%d is a century year")
 #include <stdio.h>
 #include <conio.h>
 void main()
